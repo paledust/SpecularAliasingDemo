@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_WindowWithReflection 1
+  m_Shader: {fileID: 4800000, guid: f3f57c1ef78c74147a07ee5e68e6f2c4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 8fd9859602872514ebb565db33edd54c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CameraDepthNormalTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: ff94e04b95545694d91ea232c9be6653, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 672b7c76bbe5db043ae8482079ac2844, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stain:
+        m_Texture: {fileID: 2800000, guid: 672b7c76bbe5db043ae8482079ac2844, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FadeDistance: 60
+    - _FadeScale: 100
+    - _Fading: -12
+    - _FadingRange: 20
+    - _Float1: 2.28
+    - _Float2: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LocalReflection: 0
+    - _Metallic: 0
+    - _MipLevel: 0
+    - _MipLevelSmooth: 0
+    - _Mode: 0
+    - _NormalScale: -0.05
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Pitch: -5.74
+    - _Pitch1: 0
+    - _Roll: 0
+    - _Roll1: 0
+    - _SecUV: 0
+    - _Shake: 0
+    - _Shiness: 350
+    - _ShinessScale: 1.2
+    - _SmoothAdd: 0.66
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StainSmooth: 0
+    - _SunDistort: 0.03
+    - _SunPower: 0.1
+    - _SunRadius: 4.15
+    - _SunShape: 1
+    - _TileX: 0.04
+    - _TileY: 0.05
+    - _TransparentAdd: 1
+    - _UVSec: 0
+    - _ViewDirSkew: -0.13
+    - _Yaw: 18.94
+    - _Yaw1: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    - _shake: 0
+    - _viewDirOffset: 1
+    m_Colors:
+    - _Color: {r: 1, g: 0.59381086, b: 0.18396229, a: 1}
+    - _DirtColor: {r: 0.46339935, g: 0.4357699, b: 0.47794116, a: 1}
+    - _DistanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EndColor: {r: 0.35294116, g: 0.3059778, b: 0.24653979, a: 1}
+    - _FadeColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+    - _LightPos: {r: -17.2, g: -4.5, b: -207.3, a: 0}
+    - _ReflectionColor: {r: 0.9019608, g: 0.7764706, b: 0.65882355, a: 0}
+    - _ShadeColor: {r: 0.9811321, g: 0.54378784, b: 0.1064436, a: 1}
+    - _SunDirection: {r: 0.2583336, g: -0.46452072, b: -0.84704477, a: 0}
+    - _SunWorldPos: {r: 24.1, g: 11.3, b: -25.5, a: 0}
+    - _TilingOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _TopColor: {r: 0.7647059, g: 0.71410036, b: 0.7381816, a: 1}
+    - _Vector0: {r: 0.5, g: 0.5, b: 0, a: 0}

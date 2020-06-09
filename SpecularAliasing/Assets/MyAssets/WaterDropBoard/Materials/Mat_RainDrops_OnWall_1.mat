@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_RainDrops_OnWall_1
+  m_Shader: {fileID: 4800000, guid: 83df8ae9959b9c048afc8b439dfce5fb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dark:
+        m_Texture: {fileID: 2800000, guid: 8aba6bb20faf8824d9d81946542f1ce1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
+        m_Texture: {fileID: 2800000, guid: 3ed84817d19c94d4f9ae83bdcbe4070e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DropTexture:
+        m_Texture: {fileID: 2800000, guid: f9bf76b2caa4bd94b85f95344f4d309e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 47fed99d49ff24f40b214f99c1ca2555, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 9a7c05a313df862419781d872cdfdbb4, type: 3}
+        m_Scale: {x: 0.5, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _iChannel0:
+        m_Texture: {fileID: 2800000, guid: 80ab37a9e4f49c842903bb43bdd7bcd2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - iChannel0:
+        m_Texture: {fileID: 2800000, guid: bcfeb11ccfe2454488273799d4334002, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Angle: 0
+    - _Blend: 0.92
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _Density: 6.9
+    - _DetailNormalMapScale: 1
+    - _Distortion: 5.4
+    - _DistortionScale: 1
+    - _DropWobbleStrength: 4
+    - _DstBlend: 0
+    - _FallingNoise: 0.43
+    - _FallingTogether: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MaskClip: 0.33
+    - _MaskMax: 0.56
+    - _MaskMin: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RainAmount: 2.1
+    - _ShowMask: 0
+    - _ShowNormal: 0
+    - _Size: 10
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 5
+    - _SrcBlend: 1
+    - _TileLayer1: 3.25
+    - _TileLayer2: 3
+    - _TileLayerStatic: 1.25
+    - _TileX: 0.8
+    - _TileY: 1
+    - _TrailSpeed: 0.1
+    - _TrailZoom: 8
+    - _UVSec: 0
+    - _UpdateTime: 0
+    - _UseSecMap: 0
+    - _UseTime: 0
+    - _UseTransparent: 0
+    - _WaterTrailScale: 0.1
+    - _ZWrite: 1
+    - _Zoom: 4
+    m_Colors:
+    - _Color: {r: 0.39226595, g: 0.4056604, b: 0.39494485, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Spec: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
